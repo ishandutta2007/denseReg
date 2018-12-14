@@ -38,3 +38,10 @@ python model/hourglass_um_crop_tiny.py --dataset 'nyu' --batch_size 3 --num_stac
 python model/hourglass_um_crop_tiny.py --dataset 'msra' --pid 0 --batch_size 3 --num_stack 2 --num_fea 128 --debug_level 2 --is_train False
 ```
 in which msra dataset should use pid to indicate which person to test on. In the [testing function](data/hourglass_um_crop_tiny.py#L23), the third augument is used to indicate which model with corresponding training step will be restored. We use step of -1 to indicate our pre-trained model.
+
+### Support:
+
+If you want the good work to continue please support us on
+
+* [PAYPAL](https://www.paypal.me/ishandutta2007)
+* [BITCOIN ADDRESS: 3LZazKXG18Hxa3LLNAeKYZNtLzCxpv1LyD](https://www.coinbase.com/join/5a8e4a045b02c403bc3a9c0c)
